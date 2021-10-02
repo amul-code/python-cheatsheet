@@ -61,7 +61,15 @@ list_of_chars    = list(<str>)
 <int> = <list>.count(<el>)     # Returns number of occurrences. Also works on strings.
 <int> = <list>.index(<el>)     # Returns index of the first occurrence or raises ValueError.
 <list>.remove(<el>)            # Removes first occurrence of the item or raises ValueError.
-<list>.clear()                 # Removes all items. Also works on dictionary and set.
+<list>.clear()
+Add a single element to the end of the list
+<list>append()
+returns the index of the element in the list
+<list>index()
+sorts elements of a list
+sort()
+
+# Removes all items. Also works on dictionary and set.
 ```
 
 
